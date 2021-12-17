@@ -1,0 +1,99 @@
+.img-logo {
+    height: 25%;
+    width: 25%;
+}
+
+.img-logo-2 {
+    height: 40%;
+    width: 40%;
+    padding-bottom: 30px;
+    border-bottom: 1px;
+}
+
+.img-menu {
+    width: 30vw;
+    height: auto;
+    margin: auto;
+    padding: auto;
+}
+
+.bg-gelap {
+    background-color: #000000;
+}
+
+#body {
+    background: linear-gradient(228.89deg, #270101 14.85%, #000000 140.17%), #FFFFFF;
+}
+
+.btn-gold {
+   
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight:800;    
+    line-height: 21px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+
+    background: linear-gradient(359.24deg, #FFC805 4.86%, #BA8501 48.16%, #FFD21F 51.6%, #FFFCA9 81.61%, #FFFEED 99.32%);
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
+}
+
+.nav-link {
+    color: white !important;
+}
+
+#nav-bawah {
+    z-index: 0;
+
+    background: linear-gradient(228.89deg, #270101 14.85%, #000000 140.17%), #FFFFFF;
+    box-shadow: 0px 4px 49px #060606;
+}
+
+.icon-menu {
+    width: 30px;
+    height: auto;
+}
+
+.navbar-collapse {
+    position: fixed;
+    top: 5px; 
+    left: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    height: 100%;
+    z-index: 99 !important;
+}
+.navbar-collapse.collapsing {
+    left: -75%;
+    transition: height 0s ease;
+}
+
+.navbar-collapse.show {
+    left: 0;
+    transition: left 300ms ease-in-out;
+}
+
+.navbar-toggler.collapsed ~ .navbar-collapse {
+    transition: left 500ms ease-in-out;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
+.font-14{
+    font-size: 14px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.font-18 {
+    font-size: 18px;
+}

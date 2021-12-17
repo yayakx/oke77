@@ -26,7 +26,7 @@
             </span>
         </button>
         <img src="assets/logo.png" class="img-logo mr-auto no-gutters" alt="">
-        <a class="btn-gold btn btn-dark text-dark">Masuk</a>
+        <a class="btn-gold btn btn-dark text-dark" data-toggle="modal" data-target="#modal-masuk">Masuk</a>
         <div class="collapse navbar-collapse bg-gelap" id="nav-atas">
             <div class="navbar-nav">
                 <div class="row">
@@ -126,6 +126,8 @@
         </div>
     </div>
 </body>
+
+<!-- Nav Bawah -->
 <nav class="navbar navbar-light bg-gelap border-top navbar-expand d-md-none d-lg-none d-xl-none fixed-bottom" id="nav-bawah">
     <ul class="navbar-nav nav-justified w-100">
         <li class="nav-item font-12">
@@ -160,6 +162,38 @@
         </li>
     </ul>
 </nav>
+
+<!-- Modal Masuk -->
+<div class="modal fade" id="modal-masuk" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered pl-4 pr-4" role="document">
+        <div class="modal-content">           
+            <div class="modal-body bg-modal">
+                <H5 class="text-center text-white">Masuk</H5>
+                <hr style="height:2px;border:none;color:rgb(255, 255, 255);background-color:rgb(241, 241, 241);" />
+                <div class="form-group">                  
+                  <input type="name" class="form-control" name="name" id="name" aria-describedby="emailHelpId" placeholder="Nama Pengguna">                  
+                </div>
+                <div class="form-group">                  
+                    <input type="password" class="form-control" name="password" id="password" aria-describedby="emailHelpId" placeholder="Password">                  
+                </div>
+                <div class="row">
+                    <div class="form-group col-8">                  
+                        <input type="kode" class="form-control" name="kode" id="kode" aria-describedby="emailHelpId" placeholder="Kode">                  
+                    </div>
+                    <div class="col-4">
+                        <div class="bg-dark  pr-2 pb-2 pt-2 pl-2">
+                            <a href="" class="bg-dark font-18 text-white">11952</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row col">
+                    <a class="btn-gold btn btn-dark text-dark col-4">Masuk</a>
+                    <a href="" class="text-warning font-14 mx-auto col-8 text-center pt-2">Belum punya akun?</a>
+                </div>
+            </div>        
+        </div>
+    </div>
+</div>
 <footer>
     <!-- JS -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
